@@ -91,18 +91,26 @@ function getWeatherEmoji(weatherId){
     switch(true){
         case(weatherId>=200&&weatherId<300):
             return "⛈";
+            break;
+            
         case(weatherId>=300&&weatherId<400):
             return "🌧";
+              break;
          case(weatherId>=500&&weatherId<600):
             return "⛈";
+              break;
         case(weatherId>=600&&weatherId<700):
             return "❄";
+              break;
         case(weatherId>=700&&weatherId<800):
             return "🌁";
+              break;
         case(weatherId===800):
             return "☀";
+              break;
         case(weatherId>=810&&weatherId<810):
             return "☁";
+              break;
         default:
             return"☁";
             
